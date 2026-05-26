@@ -98,7 +98,7 @@ export default function Home() {
             <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-[#0077b5] hover:scale-110 transition-all">
               <Linkedin className="w-6 h-6" />
             </a>
-            <a href="mailto:hello@example.com" className="text-muted-foreground hover:text-primary hover:scale-110 transition-all">
+            <a href="mailto:muhdzakwanx@hotmail.com" className="text-muted-foreground hover:text-primary hover:scale-110 transition-all">
               <Mail className="w-6 h-6" />
             </a>
           </div>
