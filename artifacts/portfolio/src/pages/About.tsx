@@ -23,10 +23,10 @@ export default function About() {
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-          <StatCard value={stats?.totalProjects} label="Projects Delivered" delay={0.1} />
-          <StatCard value={stats?.totalExperiences} label="Years Experience" delay={0.2} />
+          <StatCard value={6} label="Projects Delivered" delay={0.1} />
+          <StatCard value={1} label="Years Experience" delay={0.2} />
           <StatCard value={stats?.totalSkills} label="Tech Skills" delay={0.3} />
-          <StatCard value={stats?.totalCertificates} label="Certifications" delay={0.4} />
+          <StatCard value={1} label="Certifications" delay={0.4} />
         </div>
       </motion.div>
     </div>
