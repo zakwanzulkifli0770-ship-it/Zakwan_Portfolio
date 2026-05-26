@@ -1,0 +1,155 @@
+Build me a FULLY ADVANCED personal portfolio website using modern web technologies.
+
+STACK:
+- Frontend: Next.js 15 + TypeScript
+- Styling: TailwindCSS + Framer Motion
+- UI: shadcn/ui
+- Icons: Lucide React
+- Backend/API: Next.js API routes
+- Database: Supabase
+- Deployment ready for Vercel/Replit/Render
+
+WEBSITE STYLE:
+- Premium futuristic developer portfolio
+- Smooth animations
+- Dark mode by default
+- Glassmorphism + gradient effects
+- Responsive for mobile, tablet, desktop
+- Fast loading and optimized
+- Modern cyber aesthetic like award-winning portfolios
+
+CREATE THESE PAGES:
+1. Home
+2. About Me
+3. Skills
+4. Projects
+5. Experience
+6. Certificates
+7. Contact
+8. Admin Dashboard
+
+HOME PAGE:
+- Hero section with animated intro
+- Typing text effect
+- Profile image
+- Animated background particles
+- CTA buttons
+- Social media links
+- Download CV button
+
+ABOUT PAGE:
+- Detailed biography section
+- Timeline journey
+- Stats counters
+- Personal information cards
+
+SKILLS PAGE:
+- Animated skill bars
+- Technology stack cards
+- Categories:
+  - Frontend
+  - Backend
+  - Database
+  - Tools
+  - Cybersecurity
+  - AI Tools
+
+PROJECTS PAGE:
+- Advanced project cards
+- Filter by category
+- Live demo button
+- GitHub button
+- Project images
+- Tags and technologies used
+- Modal popup preview
+
+EXPERIENCE PAGE:
+- Timeline layout
+- Work experience cards
+- Education section
+- Achievements
+
+CERTIFICATE PAGE:
+- Grid gallery
+- Preview modal
+- Download certificate feature
+
+CONTACT PAGE:
+- Functional contact form
+- Save messages into database
+- Email integration
+- Interactive map
+- Social links
+- WhatsApp quick contact button
+
+ADMIN DASHBOARD:
+- Secure login system
+- Manage projects
+- Manage certificates
+- Read contact messages
+- Upload images
+- Edit portfolio content
+- Analytics dashboard
+
+FEATURES:
+- Fully responsive
+- SEO optimized
+- Dynamic metadata
+- Smooth scrolling
+- Loading animations
+- Scroll progress indicator
+- Custom cursor
+- Toast notifications
+- Lazy loading images
+- Skeleton loading
+- Accessibility support
+- Mobile navigation menu
+- Error handling
+- Form validation
+- Environment variables support
+
+DATABASE:
+Create Supabase tables:
+- users
+- projects
+- certificates
+- contact_messages
+- experiences
+
+ADD:
+- README.md
+- Installation guide
+- .env.example
+- Clean folder structure
+- Reusable components
+- Proper TypeScript typing
+
+EXTRA:
+- Add futuristic animated background
+- Add hover effects everywhere
+- Add page transitions
+- Add animated statistics
+- Add GitHub contribution section
+- Add tech stack carousel
+- Add testimonials section
+- Add blog section ready for future use
+
+MAKE THE CODE:
+- Clean
+- Professional
+- Production-ready
+- Modular
+- Scalable
+- Easy to edit
+
+Make the UI look similar to premium award-winning portfolios from Awwwards.
+Use cinematic animations and advanced scroll effects.
+Add 3D hover interactions.
+Add interactive mouse glow effects.
+Add terminal-style introduction section.
+
+AUTO INSTALL ALL REQUIRED PACKAGES.
+FIX ALL ERRORS AUTOMATICALLY.
+RUN THE PROJECT AUTOMATICALLY AFTER BUILDING.
+
+Use best practices and generate complete working code.
