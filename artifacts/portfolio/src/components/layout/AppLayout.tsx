@@ -116,7 +116,7 @@ export function AppLayout({ children }: { children: ReactNode }) {
       <footer className="border-t border-white/10 bg-background/50 backdrop-blur-sm py-8 mt-auto">
         <div className="container mx-auto px-4 text-center">
           <p className="text-muted-foreground text-sm">
-            © {new Date().getFullYear()} Personal Portfolio. Built with React & Framer Motion.
+            © Muhd Zakwan {new Date().getFullYear()}.
           </p>
         </div>
       </footer>
