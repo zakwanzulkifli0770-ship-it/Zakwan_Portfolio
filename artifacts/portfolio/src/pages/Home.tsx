@@ -47,7 +47,6 @@ export default function Home() {
   return (
     <div className="relative min-h-[calc(100vh-80px)] flex flex-col justify-center items-center overflow-hidden px-4">
       <Particles />
-      
       <div className="container mx-auto max-w-6xl grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <motion.div 
           initial={{ opacity: 0, x: -50 }}
@@ -65,7 +64,7 @@ export default function Home() {
           
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
             Hi, I'm <br />
-            <span className="text-gradient leading-tight">Alex Cyber</span>
+            <span className="text-gradient leading-tight">Mr. Zakwan</span>
           </h1>
           
           <div className="h-12 flex items-center text-2xl md:text-3xl font-mono text-muted-foreground">
