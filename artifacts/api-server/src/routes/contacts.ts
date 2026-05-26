@@ -7,6 +7,7 @@ import {
   MarkContactReadParams,
   MarkContactReadResponse,
 } from "@workspace/api-zod";
+import { sendContactNotification } from "../lib/email";
 
 const router: IRouter = Router();
 
