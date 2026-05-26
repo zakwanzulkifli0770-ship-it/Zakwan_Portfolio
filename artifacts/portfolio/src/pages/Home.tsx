@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Particles } from "@/components/ui/Particles";
 import { useEffect, useState } from "react";
 import { useGetStatsSummary } from "@workspace/api-client-react";
+import profilePic from "@assets/WhatsApp_Image_2026-05-23_at_7.39.24_PM_1779824467823.jpeg";
 
 export default function Home() {
   const [text, setText] = useState("");
@@ -126,8 +127,15 @@ export default function Home() {
               <p><span className="text-green-400">root@cyber-sys</span><span className="text-white">:</span><span className="text-blue-400">~</span><span className="text-white">$</span> whoami</p>
               <p className="text-muted-foreground">Alex_Cyber - Lead Architect</p>
               <p><span className="text-green-400">root@cyber-sys</span><span className="text-white">:</span><span className="text-blue-400">~</span><span className="text-white">$</span> neofetch</p>
-              <div className="text-muted-foreground flex gap-4">
-                <div className="text-primary font-bold text-5xl">/\</div>
+              <div className="text-muted-foreground flex gap-4 items-start">
+                <div className="shrink-0">
+                  <img
+                    src={profilePic}
+                    alt="Profile"
+                    data-testid="img-profile"
+                    className="w-20 h-20 rounded-full object-cover object-top border-2 border-primary/50 shadow-[0_0_16px_rgba(0,212,255,0.3)]"
+                  />
+                </div>
                 <div>
                   <p><span className="text-primary">OS:</span> Cyber_OS v10.4</p>
                   <p><span className="text-primary">Kernel:</span> React-Vite-Node</p>
