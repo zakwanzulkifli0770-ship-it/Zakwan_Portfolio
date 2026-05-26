@@ -125,7 +125,7 @@ export default function Home() {
             
             <div className="font-mono text-sm leading-relaxed space-y-2">
               <p><span className="text-green-400">root@cyber-sys</span><span className="text-white">:</span><span className="text-blue-400">~</span><span className="text-white">$</span> whoami</p>
-              <p className="text-muted-foreground">Alex_Cyber - Lead Architect</p>
+              <p className="text-muted-foreground">Mr_Zack - Cyber Expert</p>
               <p><span className="text-green-400">root@cyber-sys</span><span className="text-white">:</span><span className="text-blue-400">~</span><span className="text-white">$</span> neofetch</p>
               <div className="text-muted-foreground flex gap-4 items-start">
                 <div className="shrink-0">
