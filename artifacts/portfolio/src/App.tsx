@@ -6,11 +6,6 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 
 // Pages
 import Home from "./pages/Home";
-import About from "./pages/About";
-import Skills from "./pages/Skills";
-import Projects from "./pages/Projects";
-import Experience from "./pages/Experience";
-import Certificates from "./pages/Certificates";
 import Contact from "./pages/Contact";
 import AdminLogin from "./pages/admin/Login";
 import AdminDashboard from "./pages/admin/Dashboard";
@@ -31,11 +26,6 @@ function Router() {
     <Switch>
       {/* Public routes */}
       <Route path="/" component={() => <AppLayout><Home /></AppLayout>} />
-      <Route path="/about" component={() => <AppLayout><About /></AppLayout>} />
-      <Route path="/skills" component={() => <AppLayout><Skills /></AppLayout>} />
-      <Route path="/projects" component={() => <AppLayout><Projects /></AppLayout>} />
-      <Route path="/experience" component={() => <AppLayout><Experience /></AppLayout>} />
-      <Route path="/certificates" component={() => <AppLayout><Certificates /></AppLayout>} />
       <Route path="/contact" component={() => <AppLayout><Contact /></AppLayout>} />
       
       {/* Admin routes */}
