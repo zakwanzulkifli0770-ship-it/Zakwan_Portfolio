@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Link } from "wouter";
-import { ArrowRight, ChevronRight, Github, Linkedin, Mail, Terminal as TerminalIcon } from "lucide-react";
+import { ChevronRight, Github, Linkedin, Mail, Terminal as TerminalIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Particles } from "@/components/ui/Particles";
@@ -91,15 +91,6 @@ export default function Home() {
           </p>
 
           <div className="flex flex-col space-y-3 w-full sm:w-2/3">
-            <Button
-              size="lg"
-              className="w-full bg-[#00d4ff] hover:bg-[#00b3d6] text-black font-semibold cyber-glow transition-all h-12"
-              asChild
-            >
-              <Link href="/projects">
-                View My Work <ArrowRight className="ml-2 w-4 h-4" />
-              </Link>
-            </Button>
             <Button
               size="lg"
               variant="outline"
