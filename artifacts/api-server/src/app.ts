@@ -1,4 +1,4 @@
-import express, { type Express } from "express";
+import express, { type Express, type Request, type Response } from "express";
 import cors from "cors";
 import pinoHttp from "pino-http";
 import path from "path";
@@ -44,7 +44,7 @@ if (process.env.NODE_ENV === "production") {
     logger.info({ frontendDist }, "Serving frontend static files");
 
     // SPA fallback — send index.html for any non-API route
-    app.get("/{*splat}", (_req, res) => {
+    app.get("/{*splat}", (_req: Request, res: Response) => {
       res.sendFile(path.join(frontendDist, "index.html"));
     });
   } else {
