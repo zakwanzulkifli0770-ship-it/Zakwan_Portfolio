@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Link } from "wouter";
+import { ArrowRight,} from "lucide-react";
 import { ChevronRight, Github, Linkedin, Mail, Terminal as TerminalIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -92,7 +93,16 @@ export default function Home() {
 
           <div className="flex flex-col space-y-3 w-full sm:w-2/3">
             <Button
-              size="lg"
+                size="lg"
+                  className="w-full bg-[#00d4ff] hover:bg-[#00b3d6] text-black font-semibold cyber-glow transition-all h-12"
+                  asChild
+                >
+                  <Link href="/projects">
+                    View My Work <ArrowRight className="ml-2 w-4 h-4" />
+                  </Link>
+                </Button>
+                <Button
+                  size="lg"
               variant="outline"
               className="w-full border-white/10 text-gray-300 hover:text-white hover:bg-white/5 glass-card h-12"
               asChild
